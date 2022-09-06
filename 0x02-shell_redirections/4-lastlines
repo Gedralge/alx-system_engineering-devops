@@ -1,3 +1,7 @@
 #!/bin/bash
+<<<<<<< HEAD
 tail-10/etc/passwd
+=======
+tail/etc/passwd
+>>>>>>> 9309dde29d4b0bd272be18c8fcfad7dae2af61c6
 
