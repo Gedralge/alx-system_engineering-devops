@@ -3,7 +3,6 @@
 times and says "Hi" during the 9th
 
 i=1
-
 while [ "$i" -le 10 ]
 do
 	echo "Best School"
