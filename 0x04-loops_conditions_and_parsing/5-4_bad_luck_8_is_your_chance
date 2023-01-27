@@ -1,33 +1,17 @@
 #!/usr/bin/env bash
-# Bash script that loops from 1 to 10
-and:
-# "bad luck" for the 4th iteration
-# "good luck" for the 8th iteration
-# "Best School" for all other iterations
+# prints "Best School 10x, "bad luck" the 4th, "good luck" the 8th
 
-count=0
-
-while [$count -lt 10 ]
-
+i=1
+while [ "$i -le 10 ]
 do
-
-if [ $count -eq 3 ]
-then
-
-echo "bad luck"
-
-elif [ $count -eq 7 ]
-
-then
-
-echo "good luck"
-
-else
-
-echo "Best School"
-
-fi
-
-(( count++ ))
-
-done
+	if [ "$i" -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ "$i" -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+		fi
+		(( i++ ))
+	done
