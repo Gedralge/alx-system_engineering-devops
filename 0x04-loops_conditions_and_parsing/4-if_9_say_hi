@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# Bash script thhat displays Best School
-10 times, but for the 9th iteration
-# displays Best School and then Hi on a new line.
+# This script displays "Best School" 10
+times and says "Hi" during the 9th
 
 i=1
 
