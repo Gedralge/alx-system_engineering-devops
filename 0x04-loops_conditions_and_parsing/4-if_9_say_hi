@@ -3,22 +3,14 @@
 10 times, but for the 9th iteration
 # displays Best School and then Hi on a new line.
 
-count=0
+i=1
 
-while [ $count -1t 10]
+while [ "$i" -lt 11 ]; do
+	echo "Best School"
 
-do
+	if [ "$i" -eq 9 ]; then
+		echo "Hi"
+	fi
 
-if [ $count -eq 9 ]
-
-then
-
-echo "Hi"
-
-fi
-
-echo "Best School"
-
-(( count++ ))
-
+	((i++))
 done
