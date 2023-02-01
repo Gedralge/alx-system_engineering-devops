@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that displays TOP and UDP listening ports
+
+netstat -l
